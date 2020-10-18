@@ -468,7 +468,7 @@
                         "autoUpgradeMinorVersion": true,
                         "protectedSettings": {
                             "storageAccountName": "yertaylan67",
-                            "storageAccountKey":"kr6lFYpGItEnEV4m9p0j/7ISnykBlslYoBykqzMlrpjCWURM6VEHGzCWEtCCO4MTtQFDTeqmwiars49CWYkEpQ==",
+                            "storageAccountKey":"xyz123",
                             "commandToExecute": "[concat('sh sapdb.sh \"', parameters('templateURI'), '\" \"' , parameters('hanaVersion'), '\" \"' , parameters('virtualMachineAdminUser'), '\" \"', parameters('virtualMachinePassword'),'\" \"', parameters('hanaSID'), '\" \"', parameters('hanaNumber'),'\"')]"
                         },
                         "settings": {
