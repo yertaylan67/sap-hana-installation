@@ -475,7 +475,8 @@
                             "fileUris": [
                                 "[concat(parameters('templateURI'),'/scripts/sapdb.sh')]"
                             ]
-                        }                    }
+                        }               
+                    }
                 }
             ]
         }
