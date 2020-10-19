@@ -5,10 +5,11 @@
         "hanaVersion": {
             "type": "string",
             "metadata": {
-                "description": "SAP HANA Version..."
+                "description": "SAP HANA Version"
             },
-            "defaultValue": "SAP HANA PLATFORM EDITION 2.0 SPS04",
+            "defaultValue": "SAP HANA PLATFORM EDITION 2.0 SPS05",
             "allowedValues": [
+                "SAP HANA PLATFORM EDITION 2.0 SPS05",
                 "SAP HANA PLATFORM EDITION 2.0 SPS04"
             ]
         },   
