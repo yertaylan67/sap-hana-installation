@@ -91,7 +91,7 @@
         },
         "templateURI": {
             "type": "string",
-            "defaultValue": "https://yertaylan67.blob.core.windows.net/sapautomation",
+            "defaultValue": "https://xyz123.blob.core.windows.net/sapautomation",
             "metadata": {
                 "description": "Storage Account Base URI"
             }
@@ -467,7 +467,7 @@
                         "typeHandlerVersion": "2.1",
                         "autoUpgradeMinorVersion": true,
                         "protectedSettings": {
-                            "storageAccountName": "yertaylan67",
+                            "storageAccountName": "xyz123",
                             "storageAccountKey":"xyz123",
                             "commandToExecute": "[concat('sh sapdb.sh \"', parameters('templateURI'), '\" \"' , parameters('hanaVersion'), '\" \"' , parameters('virtualMachineAdminUser'), '\" \"', parameters('virtualMachinePassword'),'\" \"', parameters('hanaSID'), '\" \"', parameters('hanaNumber'),'\"')]"
                         },
